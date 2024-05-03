@@ -175,6 +175,7 @@ const config = {
     algolia: {
       appId: process.env.ALGOLIA_APPID,
       apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
+      indexName: "hackmud",
     },
   },
 
